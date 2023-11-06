@@ -28,6 +28,11 @@ export const Form = styled(Box, {
   label: {
     display: 'flex',
     flexDirection: 'column',
-    gap: '$2',
+    gap: '$1',
   },
+})
+
+export const FormError = styled(Text, {
+  color: '#f75a68',
+  fontSize: '12px!important',
 })

@@ -10,7 +10,7 @@ const claimUsernameFormSchema = z.object({
     .string()
     .min(3, { message: 'Usuário inválido' })
     .regex(/^([a-z\\-]+)$/i, {
-      message: 'Somente letras e ifem',
+      message: 'Somente letras e hifens',
     })
     .transform((username) => username.toLocaleLowerCase()),
 })
