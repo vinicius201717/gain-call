@@ -30,8 +30,6 @@ export default function ConnectCalendar() {
           </Button>
         </ConnectItem>
 
-        <Text>{JSON.stringify(session.data)}</Text>
-
         <Button type="submit" disabled={false}>
           Próximo passo
           <ArrowRight />
