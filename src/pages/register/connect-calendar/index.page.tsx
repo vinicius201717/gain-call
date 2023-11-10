@@ -1,6 +1,6 @@
 import { Heading, Text, MultiStep, Button } from '@ignite-ui/react'
 import { Container, Header } from '../styles'
-import { ArrowRight, Check, CheckCircle } from 'phosphor-react'
+import { ArrowRight, Check } from 'phosphor-react'
 import { AuthError, ConnectBox, ConnectItem } from './styles'
 import { signIn, useSession } from 'next-auth/react'
 import { useRouter } from 'next/router'
@@ -31,7 +31,7 @@ export default function ConnectCalendar() {
           <Text>Google Calendar</Text>
           {isSignedIn ? (
             <Button size="sm" disabled>
-              Conectado <CheckCircle />
+              Conectado <Check />
             </Button>
           ) : (
             <Button
