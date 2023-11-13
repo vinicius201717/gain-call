@@ -43,6 +43,7 @@ export function ClaimUsernameForm() {
           prefix="ignite.com/"
           placeholder="seu-usuário"
           {...register('username')}
+          crossOrigin=""
         />
         <Button size="sm" type="submit" disabled={isSubmitting}>
           Reservar
