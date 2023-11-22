@@ -1,3 +1,6 @@
 {
-  // "extends": "@rocketseat/eslint-config/react"
+  "extends": ["eslint-plugin-eslint"],
+  "rules": {
+    "eslint/camelcase": ["error", { "allow": ["^\\w+_\\w+$"] }]
+  }
 }
