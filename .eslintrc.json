@@ -1,6 +1,3 @@
 {
-  "extends": "@rocketseat/eslint-config/react",
-  "rules": {
-    "camelcase": ["error", { "properties": "never", "ignoreDestructuring": true }]
-  }
+  // "extends": "@rocketseat/eslint-config/react"
 }
