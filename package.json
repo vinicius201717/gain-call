@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prestart": "prisma generate",
+    "prestart": "node_modules/.bin/prisma generate",
     "start": "next start",
     "dev": "next dev",
     "build": "next build", 
